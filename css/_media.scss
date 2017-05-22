@@ -1,0 +1,44 @@
+// Screen sizes
+	$xs: 767px;
+	$min-sm: $xs + 1;
+	$max-sm: 991px;
+	$min-md: $max-sm + 1;
+	$max-md: 1199px;
+	$lg: $max-md + 1;
+// Screen sizes
+
+@mixin screen($media) 
+{
+	@if $media == xs
+	{
+		/* Smart Phones Screen */
+		@media (max-width: 767px)
+		{
+			@content;
+		}
+	}
+	@if $media == sm
+	{
+		/* small Screen */
+		@media (min-width: 768px) and (max-width: 991px)
+		{
+			@content;
+		}
+	}
+	@if $media == md
+	{
+		/* Medium Screen */
+		@media (max-width: 992px) and (max-width: 1199px)
+		{
+			@content;
+		}
+	}
+	@if $media == lg
+	{
+		/* Large Screen */
+		@media (min-width: 1200px)
+		{
+			@content;
+		}
+	}
+}
