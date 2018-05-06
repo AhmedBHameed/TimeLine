@@ -1,6 +1,6 @@
 # TimeLine
 
-Simple plugin elegent time line slider.
+Simple elegant plugin time line slider.
 
 ![DEMO](https://github.com/AhmedBHameed/TimeLine/blob/master/img/DEMO.gif)
 
