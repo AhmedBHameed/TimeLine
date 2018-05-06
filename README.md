@@ -2,7 +2,7 @@
 
 Simple plugin elegent time line slider.
 
-![DEMO]()
+![DEMO](https://github.com/AhmedBHameed/TimeLine/blob/master/img/DEMO.gif)
 
 # Getting started
 
